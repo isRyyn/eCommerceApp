@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "npx nx run host:serve --dev Remotes=cart,product --watch=true"
+    "dev": "npx nx run host:serve --devRemotes=cart,product --watch=true"
   },
   "private": true,
   "dependencies": {
