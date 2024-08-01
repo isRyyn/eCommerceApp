@@ -1,0 +1,20 @@
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    min-width: 80px;
+
+    &:hover {
+        background: grey !important;
+    }
+}
+
+.green {
+    background: chartreuse;
+
+    &:hover {
+        background: rgb(3, 138, 3) !important;
+    }
+}

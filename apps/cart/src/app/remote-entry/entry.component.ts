@@ -7,4 +7,13 @@ import { CommonModule } from '@angular/common';
   selector: 'app-cart-entry',
   template: `Cart app`,
 })
-export class RemoteEntryComponent {}
+export class RemoteEntryComponent {
+
+    constructor(
+
+    ){}
+
+    ngOnInit(): void {
+       
+    }
+}

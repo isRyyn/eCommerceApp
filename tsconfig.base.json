@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-monorepo/shared": ["libs/shared/src/index.ts"],
       "cart/Routes": ["apps/cart/src/app/remote-entry/entry.routes.ts"],
       "product/Routes": ["apps/product/src/app/remote-entry/entry.routes.ts"]
     }

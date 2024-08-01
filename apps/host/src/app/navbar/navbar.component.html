@@ -1,0 +1,11 @@
+<nav [class.scrolled]="scrolled" class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-logo">Fanta shopping App</div>
+        <div class="navbar-links">
+            <a (click)="goToPath('product')">Products</a>
+            <a (click)="goToPath('cart')">Cart</a>
+            <a (click)="goToPath('about')">About</a>
+            <button (click)="goToPath('')" *ngIf="showLogout">Logout</button>
+        </div>
+    </div>
+</nav>

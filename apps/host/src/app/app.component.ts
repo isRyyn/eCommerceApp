@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { NavbarComponent } from "./component/navbar.component";
+import { NavbarComponent } from "./navbar/navbar.component";
 
 @Component({
   standalone: true,
